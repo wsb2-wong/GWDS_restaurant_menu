@@ -101,4 +101,19 @@
     font-size: larger;
   }
 
- 
+  .scroll-effect {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-in 1s ease-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
