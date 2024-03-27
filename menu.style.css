@@ -128,7 +128,7 @@
     transform: translateY(20px);
     animation: fade-in 1s ease-out forwards;
   }
-  
+
   @keyframes fade-in {
     0% {
       opacity: 0;
@@ -142,9 +142,20 @@
 
 
 
+  nav .navbar-brand img {
+    width: 70px; /* Adjust the width as needed */
+    height: 70px; /* Adjust the height as needed */
+  }
+  
+  @media (max-width: 576px) {
+    nav .navbar-brand img {
+      width: 70px; /* Keep the original width */
+      height: 70px; /* Keep the original height */
+    }
+  }
+
 @media (max-width: 576px) {
-  .navbar-brand img {
-    width: 10%; /* Adjust the width as needed */
-    height: 5%
+  .navbar-brand2 img {
+    width: 50%; /* Adjust the width as needed */
   }
 }
